@@ -3,6 +3,16 @@
     padding: 25px;
     position: sticky;
     top: 0;
+    height: 100vh;
+}
+.cart h5, .cart h4{
+    color: #1C2B35;
+    font-size: 20px;
+    text-align: center;
+}
+.cart h4{
+    text-align: left;
+    font-size: 17px;
 }
 .cart p{
     font-size: 17px;

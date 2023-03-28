@@ -13,12 +13,12 @@ const Cart = ({cart}) => {
     let grandTotal = totalPrice + totalShipping + tax;
     return (
         <div className='cart'>
-            <h4>order summary</h4>
-            <p>Selected item: {cart.length}</p>
-            <p>Total price: ${totalPrice}</p>
-            <p>Total shipping: ${totalShipping}</p>
+            <h5>Order Summary</h5>
+            <p>Selected Item: {cart.length}</p>
+            <p>Total Price: ${totalPrice}</p>
+            <p>Total Shipping: ${totalShipping}</p>
             <p>Tax: {tax.toFixed(2)}</p>
-            <h4>Grand Total: {grandTotal.toFixed(2)}</h4>
+            <h4>Grand Total: ${grandTotal.toFixed(2)}</h4>
         </div>
     );
 };
